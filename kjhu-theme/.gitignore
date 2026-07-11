@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+public/build/
+public/hot
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+storage/logs/
+*.log
+
+# Cache
+bootstrap/cache/*
+!bootstrap/cache/.gitkeep
+storage/framework/cache/*
+!storage/framework/cache/.gitkeep
+storage/framework/views/*
+!storage/framework/views/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+storage/app/uploads/
+public/uploads/
+
+# Compiled files
+*.min.css
+*.min.js
+*.map
+
+# Temporary files
+tmp/
+temp/
+*.tmp
